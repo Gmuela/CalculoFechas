@@ -14,7 +14,7 @@ var diasCalculados;
 
 var aniosCalculados = Math.floor(milisTotal / 1000 / 60 / 60 / 24 / 365.25);
 
-mesesCalculados = Math.floor((milisTotal / 1000 / 60 / 60 / 24 / 365.25) % 12);
+mesesCalculados = Math.floor((milisTotal / 1000 / 60 / 60 / 24) % (365.25/30.42));
 
 diasCalculados = Math.floor(milisTotal / 1000 / 60 / 60 / 24) % (365.25/12);
 
