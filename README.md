@@ -23,7 +23,7 @@ tiempoCalculado = aniosCalculados + " años, " + mesesCalculados + " meses y " +
 return tiempoCalculado;
 ```
 
-**Ejemplo en *Java* para calcular edades. *¡OJO!* Es necesario tener Java8 **
+**Ejemplo en *Java* para calcular edades. *¡OJO!* Es necesario tener Java8**
 ```java
 public String calcularEdad(String fechaDeNacimiento){
   
