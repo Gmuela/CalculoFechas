@@ -33,7 +33,7 @@ public String calcularEdad(String fechaDeNacimiento){
   Period age = Period.between(birthday, today);
 
   /*Optional format*/
-  DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/LLLL/yy");
+  DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yy");
   String formattedBirthday = birthday.format(formatter);
   /****************/
   
